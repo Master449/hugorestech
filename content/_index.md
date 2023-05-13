@@ -2,7 +2,7 @@
 weight: 0
 title: "ResTech KB"
 description: "Landing Page"
-authors: ['David', 'Michael']
+authors: ['David']
 ---
 
 This is just a nice place I am going to write notes documenting the process of playing around with this. All of these are a work in progress and the order of things is very sporatic.
