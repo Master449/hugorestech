@@ -13,7 +13,7 @@ Channel Scan on:
 
  
 
-**Insignia Tv**
+## Insignia Tv
 
 -On TV input go to menu > channel > auto channel search
 
@@ -27,7 +27,7 @@ The Channel Search will then proceed.
 
  
 
-**Toshiba Tv**
+## Toshiba Tv
 
 **Option 1**(Older looking, horizontal scroll of options):
 
@@ -49,7 +49,7 @@ The Channel Search will then proceed.
 
  
 
-**Samsung Tv**  
+## Samsung Tv
 
 -Source > TV
 
@@ -60,7 +60,7 @@ images - http://www.hofstra.edu/pdf/studentaffairs/studentservices/it/itscs/sams
 [![](/_layouts/15/images/icjpg.gif)oldertoshibatv.jpg](/sites/housing/restech_helpdesk/SiteAssets/kb/Student%20Support/Channel%20Search%20or%20Scan%20on%20TVs/oldertoshibatv.jpg)[![](/_layouts/15/images/icjpg.gif)newertoshibatv.jpg](/sites/housing/restech_helpdesk/SiteAssets/kb/Student%20Support/Channel%20Search%20or%20Scan%20on%20TVs/newertoshibatv.jpg)  
 
 
-**General Instructions for any Brand**
+## General Instructions for any Brand
 
 All TV manufacturers differ, so menu options, wording and other items may vary. The best way to complete the channel scan is to refer to the television's owner's manual. If that is not available, try the following general instructions.  
 * Locate the TV remote control.

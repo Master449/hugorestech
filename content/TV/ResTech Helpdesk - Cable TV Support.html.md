@@ -8,14 +8,10 @@ tags: ["Hardware", "TV"]
 ​​​​Initial calls from the residence halls and the Northern View Community for cable TV support will come to the Service Desk.  
 
 
-\*\***There is only 1 active cable jack per room so if they want 2 TVs, they have to purchase a splitter**  
-\*\*\*Neptune rooms may have two coax connections.  One old and one newer one.  The old ones don't work.  The newer style jacks are the ones that are found in the white conduit/raceway.    
-​  
-**Troubleshooting an individual problem:**  
+**There is only 1 active cable jack per room so if they want 2 TVs, they have to purchase a splitter**  
+Neptune rooms may have two coax connections.  One old and one newer one.  The old ones don't work.  The newer style jacks are the ones that are found in the white conduit/raceway.    
   
-
-
-I)      Check for correct connections, lose or damaged cables, and power on. What equipment is connected?
+## Check for correct connections, lose or damaged cables, and power on. What equipment is connected?
 
 1. TV only
 1. Power cable plugged into wall outlet and connected to TV?
@@ -38,7 +34,7 @@ I)      Check for correct connections, lose or damaged cables, and power on
 
 If all equipment is connected and powered on, then:
 
-II)     Programming
+## Programming
 
 1. No Signal/Not receiving all channels  
   
@@ -53,7 +49,7 @@ Most TV's and VCR's today can receive either antenna or cable signals and most a
 5. Not receiving all channels
 1. Very old equipment may not be cable ready and old equipment may receive only 36 channels. If the equipment is cable ready, can receive more than 36 channels, and was programmed since coming to NIU, then submit a trouble ticket to Media Services.​
 
-**Scanning for Channels: General Instructions for any TV Brand**
+### Scanning for Channels: General Instructions for any TV Brand
 
 All TV manufacturers differ, so menu options, wording and other items may vary. The best way to complete the channel scan is to refer to the television's owner's manual. If that is not available, try the following general instructions.  
 * Locate the TV remote control.
@@ -63,7 +59,8 @@ All TV manufacturers differ, so menu options, wording and other items may vary. 
 * Most digital TV sets have a scanning function typically called Auto Program, Channel Scan or some similar name. Find the scan function in the on-screen menu and start it.
 * You probably will see a progress bar that shows the number of channels found. A scan can take as long as 45 minutes depending upon the TV set.
 * When finished, the TV will have found all of the available channels.​​
-**Providing Coaxial Cables**  
+
+### Providing Coaxial Cables
 
 
 ResTech provides the coaxial cable for TVs provided by NIU only:  
@@ -102,9 +99,10 @@ Installing the Mediasonic HOMEWORX HW180STB​​:* Plug in their coaxial cabl
 
 
 * The scan will take 15-20 minutes, so just wait until at least 10 channels appear and then you are good to go.
-**​​Frequently Asked Questions and Answers:​**
 
-**Onsite Troubleshooting with the RCA Portable LCD TV (Tier 2)**
+## FAQs:
+
+### Onsite Troubleshooting with the RCA Portable LCD TV (Tier 2)
 
 * ​​​Coaxial cable should be connected to the cable jack run through the off-white/cream colored conduit running along the wall​
 * ​​Connect the cable from the jack to the Portable TV
@@ -112,29 +110,32 @@ Installing the Mediasonic HOMEWORX HW180STB​​:* Plug in their coaxial cabl
 * In Menu options set TV Source to CATV (It defaults to TV)
 * Then do an AUTO Scan
 
-**How to fix a tv that is only picking up digital channels?**
+### How to fix a tv that is only picking up digital channels?
 
 * Change the antenna settings to analog
 * Some tvs will scan for both digital and analog
 * If the channels are digital (2.1, 5.2, etc)
-**Channel scan picks up a few channels but they are not clear (static):**
+
+### Channel scan picks up a few channels but they are not clear (static):
 
 * Make sure the cable is connnected to the correct jack
 + Coaxial cable should be connected to the cable jack run through the off-white/cream colored conduit running along the wall
 
 * When onsite, connect the cable from the jack to the adapter on the laptopLaptop must be on the Windows side
 + Check channels by opening WinTV shortcut
-**1 Channel has intermittent issues or out completely:**
+
+### 1 Channel has intermittent issues or out completely:
 
 * Check channel using cable jack in the manager's office
 * Go to a tv in Stevenson Dining to check the channel
 
-**Works on laptop but not on TV:**
+### Works on laptop but not on TV:
 
 * Setting on tv should be Cable, Cable-Analog, TV-Digital
 * If you are certain you have tried all options on the tv, the student may need to purchase a digital converter box ($40-$50)
 + Check make/model of tv online to verify
-**Doesn't work on laptop: (Tier 2)**
+
+### Doesn't work on laptop: (Tier 2)
 
 * Coaxial cable should be connected to the cable jack run through the off-white/cream colored conduit running along the wall
 * Only 1 cable jack per room
@@ -153,15 +154,29 @@ Installing the Mediasonic HOMEWORX HW180STB​​:* Plug in their coaxial cabl
 
 * In order to view this channel, **rescan** the channels on the TV.
 
-**I live in Northern View. Can I call outside TV providers such as Comcast or DirecTV to set up service in my apartment?*** Residents of the Northern View Community are provided with the university cable TV system and are not allowed to contract with outside cable providers such as Comcast. The DoIT Service Desk provides first level cable TV support as in the residence halls.​
-**Will my old analog TV still work with TV?**  
+### Outside TV Contracts
+
+Residents of the Northern View Community are provided with the university cable TV system and are not allowed to contract with outside cable providers such as Comcast. The DoIT Service Desk provides first level cable TV support as in the residence halls.​
+
+### Will my old analog TV still work with TV?
 * The TV system offers only digital channels. Old style, analog televisions will not work on the TV system without a set top box.
-**Can a laptop with a TV tuner ins****talled be used to watch TV?**  
+
+### Can a laptop with a TV tuner installed be used to watch TV? 
 * Yes, TV offers SD and HD digital stations. Any tuner that can receive an HD or SD signal will work. There is no need to decode TV digital signals as they are delivered using clear QAM.
-**Do I need a converter box to receive the HD channels?*** No, you do not need a converter box to receive the HD channels if you have an HD compatible television with a clear QAM tuner.
-**What is the minimum hardware requirement to view HD channels in HD and which type of set works best?*** The minimum hardware required to view HD channels is an HD compatible television. Television sets should be purchased based on the user's preferences and needs. Users are encouraged to use the same consumer product resources they would when evaluating and purchasing other electronic equipment. TV staff do not evaluate television sets nor do they provide recommendations on which sets work best.
-**Will a Standard Definition (SD) television set work with all HD channels?*** No, HD programming can only be viewed on an HD compatible television set.
-**Why do the digital channel numbers include a period between the numbers on the channel lineup card?**  
+
+### Do I need a converter box to receive the HD channels?
+
+No, you do not need a converter box to receive the HD channels if you have an HD compatible television with a clear QAM tuner.
+
+
+### What is the minimum hardware requirement to view HD channels in HD and which type of set works best?
+
+The minimum hardware required to view HD channels is an HD compatible television. Television sets should be purchased based on the user's preferences and needs. Users are encouraged to use the same consumer product resources they would when evaluating and purchasing other electronic equipment. TV staff do not evaluate television sets nor do they provide recommendations on which sets work best.
+
+### Will a Standard Definition (SD) television set work with all HD channels?
+
+No, HD programming can only be viewed on an HD compatible television set.
+### Why do the digital channel numbers include a period between the numbers on the channel lineup card?
 * Due to the technology differences between analog and digital television, multiple digital channels can fit within one channel. This is similar to radio channels, which also use decimals.
 **Q.Can the HD channels be programmed using the Auto-Setup option?*** Yes, the HD channels can be programmed using the Auto-Setup option on most sets. However, this may vary depending on the manufacturer of the television set.
 **How do I know if I am bringing the right television to view TV?**  

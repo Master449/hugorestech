@@ -61,6 +61,14 @@ This can have similar front matter to any page, but what is nice about that is y
 
 Author Taxonomy did not exist inside of this theme. So I added it. Still a little sloppy, but this page has some authors, but if you go to the WiFi page, it is gone, because there is no authors in the front matter.
 
-Images
+Images can be added like so:
 
+```
 ![Image](/images/Huskie.png)
+```
+
+# Auto Generated Table of Contents
+
+Enabled by default, but if a page is super short, you can add `toc: false` on a per page basis to disable it.
+
+An example of ToC would be [Cable TV Support](/tv/restech-helpdesk-cable-tv-support.html/) and an example without would be [Programming Logitech Remote](/tv/restech-helpdesk-programming-logitech-smart-tv-remote.html/) (or this page)

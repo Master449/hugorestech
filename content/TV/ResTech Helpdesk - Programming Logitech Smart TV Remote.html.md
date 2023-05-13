@@ -3,6 +3,7 @@ weight: 0
 title: "Programming Logitech Smart TV Remote"
 description: "Programming Logitech Smart TV Remote"
 tags: ["Hardware", "TV"]
+toc: false
 ---​​
 
 ​​Procedure for configuring and using the Logitech Harmony 350 universal remote control. This will be used as a replacement for department-issued smart TV's (Example: New Hall clusters) and for ResTech troubleshooting support for any smart TV's on site.  
