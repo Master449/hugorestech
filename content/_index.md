@@ -2,7 +2,7 @@
 weight: 0
 title: "ResTech KB"
 description: "Landing Page"
-category: 'Research'
+author: "David"
 ---
 
 This is just a nice place I am going to write notes documenting the process of playing around with this. All of these are a work in progress and the order of things is very sporatic.
@@ -33,6 +33,12 @@ Some of them include
  - Gap Width
  - Font Size
 
+While these files are nice, they do **not** have everything. If you're looking to edit something thats not in those files, you're going to have to:
+
+ - *Inspect Element* 
+ - Look for an ID or class of the element
+ - Use something like VSCodes search for that element in the SASS files.
+
 Images, Fonts, and Extra CSS go inside of `static`, most examples I see, split them into their own folders. This also means the static portion is not included in file location.
 
 So for the Huskie logo up in the top corner, the config.toml contains 
@@ -52,3 +58,7 @@ Not only can you use front matter to categorize stuff, this theme also lets you 
 For each folder you can specify an `_index.md`, think of this like the "Landing Page" for that specific section.
 
 This can have similar front matter to any page, but what is nice about that is you can leave it blank and it won't be a landing page, only a "Folder" like organization
+
+Images
+
+![Image](/images/Huskie.png)
