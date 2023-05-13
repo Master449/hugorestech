@@ -1,5 +1,6 @@
 {{- $.Scratch.Set "contentId" "content" -}}
 {{- $.Scratch.Set "titleId" "contentTitle" -}}
+{{- $.Scratch.Set "auth" $.Params.authors -}}
 {{- if .IsHome -}}
   {{- if eq .Site.Params.homeLayout "onboarding" -}}
     {{- $.Scratch.Set "contentId" "contentHome" -}}
@@ -23,8 +24,13 @@
       {{- partial "theme/banner.html" (dict "text" $bannerContent "rootContext" $) -}}
     {{- end -}}
     {{- with .Title -}}
-      {{- partial "theme/content-title.html" (dict "titleId" ($.Scratch.Get "titleId") "title" .) -}}
+      {{- partial "theme/content-title.html" (dict "titleId" ($.Scratch.Get "titleId") "title" . "auth" ($.Scratch.Get "auth") "authors" .) -}}
     {{- end -}}
+    <!-- <p style="text-align: center; margin: 0; padding: 0;">Authors:
+    {{ range .Param "authors" }}
+      {{ . }}
+    {{- end -}}</p>
+    <hr> -->
     {{- .Content -}}
   </div>
   {{- if ($.Scratch.Get "isToc") -}}

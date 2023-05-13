@@ -12,3 +12,8 @@ theme = 'shadocs'
 [sidebar]
   # Can change this from the standard arrow for sub pages
   nestedSectionIconDefault = "fa-solid fa-turn-up fa-rotate-90 fa-xs"
+
+[taxonomies]
+  author = "authors"
+  tag = "tags"
+  category = "categories"

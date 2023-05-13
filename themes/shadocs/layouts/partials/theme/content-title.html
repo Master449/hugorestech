@@ -1,1 +1,6 @@
-<div id="{{- .titleId -}}">{{- .title -}}<hr></div>
+<div id="{{- .titleId -}}">{{- .title -}}
+{{if .auth }}
+    <p style="font-size: 12px;">Authors: {{- .auth -}}</p>
+{{ end }}    
+<hr></div>
+

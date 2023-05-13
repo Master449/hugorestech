@@ -2,7 +2,7 @@
 weight: 0
 title: "ResTech KB"
 description: "Landing Page"
-author: "David"
+authors: ['David', 'Michael']
 ---
 
 This is just a nice place I am going to write notes documenting the process of playing around with this. All of these are a work in progress and the order of things is very sporatic.
@@ -58,6 +58,8 @@ Not only can you use front matter to categorize stuff, this theme also lets you 
 For each folder you can specify an `_index.md`, think of this like the "Landing Page" for that specific section.
 
 This can have similar front matter to any page, but what is nice about that is you can leave it blank and it won't be a landing page, only a "Folder" like organization
+
+Author Taxonomy did not exist inside of this theme. So I added it. Still a little sloppy, but this page has some authors, but if you go to the WiFi page, it is gone, because there is no authors in the front matter.
 
 Images
 
