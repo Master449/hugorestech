@@ -1,0 +1,14 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'ResTech'
+theme = 'shadocs'
+
+[params]
+  logo = "images/Huskie.png"
+  logoTouch = "images/Huskie.png"
+  favicon = "images/Huskie.png"
+  homeLayout = "landing"
+
+[sidebar]
+  # Can change this from the standard arrow for sub pages
+  nestedSectionIconDefault = "fa-solid fa-turn-up fa-rotate-90 fa-xs"
