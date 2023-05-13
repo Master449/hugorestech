@@ -1,6 +1,10 @@
 <div id="{{- .titleId -}}">{{- .title -}}
 {{if .auth }}
-    <p style="font-size: 12px;">Authors: {{- .auth -}}</p>
-{{ end }}    
+<p style="font-size: 12px; font-weight: normal;">Authors:
+{{ range $k, $v := .auth }}
+  {{- if $k }}, {{ end }}
+  {{.}}
+{{- end }}
+{{ end }}
 <hr></div>
 
