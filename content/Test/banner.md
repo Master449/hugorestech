@@ -9,11 +9,10 @@ bannerContent: "We do not support this software anymore!"
 
 This is an examle of a banner on a page.
 
-It is typed out in the front matter like so
+The banner at the top is typed out in the front matter like so
 
-```frontmatter
+```yaml
 ---
-title: "Banner Demo"
 banner: true
 bannerContent: "We do not support this software anymore!"
 ---
