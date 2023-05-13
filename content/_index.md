@@ -15,11 +15,28 @@ This will be a mish mash of [Hugo's Documentation](https://gohugo.io/documentati
 ---
 title: 'Markdown Test'
 description: 'Markdown Testing File'
-category: 'Research'
+date: {{ .Date }}
+draft: false
+categories: ['Research']
 tags: ['Test', 'Home']
+authors: ["David"]
 titleIcon: "fa-sharp fa-solid fa-flask"
 ---
 ```
+
+What is what
+
+| Element | Type | Usage |
+|:---|:---:|:---|
+| **Title** | String |  The name of the article, this name is shown on the top and sidebar |
+| **Description** | String | Short summary of the article when using Search or the Taxonomy Lookup
+| **Date** | Date Object | Date it was created (or custom date)
+| **Draft** | Boolean | If article is draft, it does not show up in the sidebar |
+| **Catergories** | Array | Built-in Catergory Taxonomy |
+| **Tags** | Array | Built-in Tags Taxonomy |
+| **Authors** | Array | Custom Made Authors Taxonomy |
+| **Title Icon** | String | Uses fontawesome to make the icons on the sidebar |
+
 
 # Theme Customization
 
@@ -72,3 +89,15 @@ Images can be added like so:
 Enabled by default, but if a page is super short, you can add `toc: false` on a per page basis to disable it.
 
 An example of ToC would be [Cable TV Support](/tv/restech-helpdesk-cable-tv-support.html/) and an example without would be [Programming Logitech Remote](/tv/restech-helpdesk-programming-logitech-smart-tv-remote.html/) (or this page)
+
+# Mermaid Graphs
+
+```mermaid
+graph TB
+    subgraph SubGraph 1
+    b1(Action 2.1) --> b2(Action 2.2)
+    end
+    subgraph SubGraph 2
+    a1(Action 1.1) --> a2(Action 1.2)
+    end
+```

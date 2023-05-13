@@ -4,7 +4,7 @@ title = 'ResTech'
 theme = 'shadocs'
 
 [params]
-  logo = "images/Huskie.png"
+  logo = "images/restech.png"
   logoTouch = "images/Huskie.png"
   favicon = "images/Huskie.png"
   homeLayout = "landing"
