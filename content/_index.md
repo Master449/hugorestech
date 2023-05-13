@@ -127,7 +127,7 @@ For escape long segments of html and markdown
 
 ## TreeView
 
-This tree view updates automatically via the given path.
+This tree view updates automatically via the files in a given path.
 
 {{< treeview rootpath="/General" />}}
 
@@ -154,3 +154,17 @@ Snippets are chunks of reusable markdown. There are stored within the templates 
 This function is not hardcoded into the webpage. It is all inside of the file `templates/snippet.go`
 
 This might be more versatile over the GitLab snippets as when you update the snippet, it updates every page it is on.
+
+## Custom Blockquotes
+
+Not as useful but fancy looking:
+
+{{< blockquote >}}
+Blockquote
+{{< /blockquote >}}
+
+Blockquote with source:
+
+{{< blockquote source="David">}}
+Blockquote with source
+{{< /blockquote >}}
