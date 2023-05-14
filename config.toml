@@ -8,6 +8,13 @@ theme = 'shadocs'
   logoTouch = "images/Huskie.png"
   favicon = "images/Huskie.png"
   toc = true
+  [params.taxonomies]
+    [pararms.taxonomies.authors]
+      icon = "fa-solid fa-feather"
+    [params.taxonomies.categories]
+      icon = "fa-solid fa-table-cells"
+    [params.taxonomies.tags]
+      icon = "fa-solid fa-tag"
 
 # While I have no real idea on what this actually does
 # The ToC was wonky until I added it.
