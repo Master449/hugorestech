@@ -111,10 +111,14 @@ An example of ToC would be [Cable TV Support](/tv/restech-helpdesk-cable-tv-supp
 
 With downloadable SVG File
 
+For some reason only one per page (only one of them actually renders lol)
+
 ```mermaid
-graph TB
+graph TD
     subgraph SubGraph 1
-    b1(Action 2.1) --> b2(Action 2.2)
+    A(A) --> B(B)
+    B(B) --> C(C)
+    C(C) --> A(A)
     end
     subgraph SubGraph 2
     a1(Action 1.1) --> a2(Action 1.2)
