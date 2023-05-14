@@ -60,6 +60,21 @@ titleIcon: ''
       "intro": "This is neat. Dedicated printing button. It hides the sidebar, ToC, nav, and sets the colors to standard printing colors (mostly black)",
       "position": "bottom"
     },{
+      "title": "QR Code",
+      "element": "#qrCodeButton",
+      "intro": "Generates the currently URL as a QR Code. Useful for taking a specific page on your phone for a ticket or to the workbench.",
+      "position": "bottom"
+    },{
+      "title": "Shortcuts",
+      "element": "#shortcutsInfo",
+      "intro": "Built-In Keyboard shortcuts, and more can be defined inside of config.toml.",
+      "position": "bottom"
+    },{
+      "title": "Taxonomies",
+      "element": "#taxonomiesSelectorContainer",
+      "intro": "This is where you can view all taxonomies, right now it is just Tags and Authors",
+      "position": "bottom"
+    },{
       "title": "Mobile",
       "intro": "This theme is apparently mobile friendly (not tested), these steps can also be only shown based on triggers (i.e. desktop or mobile)"
     },{
