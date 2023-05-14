@@ -3,6 +3,7 @@ weight: 0
 title: "Banner Demo"
 description: "How to use a banner"
 tags: ["Useful"]
+authors: ['David', 'Michael', 'Bingus']
 banner: true
 bannerContent: "We do not support this software anymore!"
 ---

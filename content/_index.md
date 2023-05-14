@@ -37,6 +37,11 @@ What is what
 | **Authors** | Array | Custom Made Authors Taxonomy |
 | **Title Icon** | String | Uses fontawesome to make the icons on the sidebar |
 
+{{< alert
+    type="info"
+>}}
+Tags, Authors, and Catergories need to be arrays.
+{{< /alert >}}
 
 # Theme Customization
 
