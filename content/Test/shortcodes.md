@@ -26,12 +26,6 @@ For escape long segments of html and markdown
 **mardown** format does ~~not work~~ here
 {{< /plaintext >}}
 
-### TreeView
-
-This tree view updates automatically via the files in a given path.
-
-{{< treeview rootpath="/General" />}}
-
 ### Collapsible Sections
 
 {{< collapsible >}}
@@ -88,3 +82,9 @@ console.log("Nice Block");
 ### Custom Parameters
 
 No idea how useful [this would be](https://shadocs.netlify.app/shortcodes/parameter/) but seems very cool
+
+### TreeView
+
+This tree view updates automatically via the files in a given path. This is the entire site as it sits right now.
+
+{{< treeview rootpath="/" />}}

@@ -55,6 +55,11 @@ titleIcon: ''
       "intro": "For Searching of course.",
       "position": "bottom"
     },{
+      "title": "Printing",
+      "element": "#printButton",
+      "intro": "This is neat. Dedicated printing button. It hides the sidebar, ToC, nav, and sets the colors to standard printing colors (mostly black)",
+      "position": "bottom"
+    },{
       "title": "Mobile",
       "intro": "This theme is apparently mobile friendly (not tested), these steps can also be only shown based on triggers (i.e. desktop or mobile)"
     },{
