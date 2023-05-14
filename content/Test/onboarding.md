@@ -13,7 +13,7 @@ titleIcon: ''
   id="introTest"
 >}}
 {
-  "showBullets": false,
+  "showBullets": true,
   "showStepNumbers": true,
   "onexit": "console.log(\"I'm exiting the intro\");",
   "oncomplete": "console.log(\"I'm exiting the intro after completing it\");",
@@ -62,7 +62,7 @@ titleIcon: ''
     },{
       "title": "QR Code",
       "element": "#qrCodeButton",
-      "intro": "Generates the currently URL as a QR Code. Useful for taking a specific page on your phone for a ticket or to the workbench.",
+      "intro": "Generates the current URL as a QR Code. Useful for taking a specific page on your phone for a ticket or to the workbench.",
       "position": "bottom"
     },{
       "title": "Shortcuts",

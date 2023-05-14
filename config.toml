@@ -7,7 +7,16 @@ theme = 'shadocs'
   logo = "images/restech.png"
   logoTouch = "images/Huskie.png"
   favicon = "images/Huskie.png"
-  homeLayout = "landing"
+  toc = true
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.tableOfContents]
+    ordered    = false
+    startLevel = 1
+    endLevel   = 6
+  [markup.goldmark.renderer]
+    unsafe = false
 
 [sidebar]
   # Can change this from the standard arrow for sub pages

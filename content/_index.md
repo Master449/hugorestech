@@ -10,6 +10,7 @@ This is just a nice place I am going to write notes documenting the process of p
 This will be a mish mash of [Hugo's Documentation](https://gohugo.io/documentation/) and [Shadocs Documentation (this theme)](https://shadocs.netlify.app/theme/introduction/)
 
 # Example Front Matter
+---
 
 ```yaml
 ---
@@ -44,6 +45,7 @@ Tags, Authors, and Catergories need to be arrays.
 {{< /alert >}}
 
 # Theme Customization
+---
 
 There is a file inside of `themes/shadocs/assets/sass/custom/`
 
@@ -76,6 +78,7 @@ So for the Huskie logo up in the top corner, the config.toml contains
 ```
 
 # Posts / Articles / Knowledge Base
+---
 
 Most of what we are putting on this website will be placed inside of `content` folder.
 
@@ -94,6 +97,7 @@ Images can be added like so:
 ```
 
 # Theme Features
+---
 
 ## Auto Generated Table of Contents
 
