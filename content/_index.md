@@ -89,7 +89,7 @@ Author Taxonomy did not exist inside of this theme. So I added it. Still a littl
 
 Images can be added like so:
 
-```
+```markdown
 ![Image](/images/Huskie.png)
 ```
 
