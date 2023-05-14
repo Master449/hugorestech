@@ -9,6 +9,9 @@ theme = 'shadocs'
   favicon = "images/Huskie.png"
   toc = true
 
+# While I have no real idea on what this actually does
+# The ToC was wonky until I added it.
+# Wonky as in it would skip first headers for no reason
 [markup]
   defaultMarkdownHandler = "goldmark"
   [markup.tableOfContents]
