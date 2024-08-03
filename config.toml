@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
 title = 'ResTech'
 theme = 'shadocs'
@@ -36,3 +36,6 @@ theme = 'shadocs'
   author = "authors"
   tag = "tags"
   category = "categories"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
