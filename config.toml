@@ -39,3 +39,8 @@ theme = 'shadocs'
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[includes]
+css = [
+      "css/style.css",
+    ]

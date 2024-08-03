@@ -34,6 +34,10 @@
       .icon
         span:nth-child(2)
           transform: rotate(90deg)
+  p
+    color: $theme-white-color
+  i
+    color: $theme-white-color
 #sidebarCollapsible
   background: linear-gradient(smooth-color($sidebar-background, 5), $sidebar-background)
   +static-size-height(calc(#{$sidebar-entry-height} + (2 * #{$theme-gap-medium-size}) + #{$theme-gap-small-size}))
@@ -42,8 +46,6 @@
   border-left: $theme-gap-small-size solid smooth-color($theme-color, 20)
   @extend %sidebar-effects
   @extend %sidebar
-  a
-    @extend %unselectable
 #sidebar
   +static-size-height(calc(100svh - #{$navbar-height} - (#{$sidebar-entry-height} + (2 * #{$theme-gap-medium-size}) + #{$theme-gap-small-size})))
 #sidebar,
