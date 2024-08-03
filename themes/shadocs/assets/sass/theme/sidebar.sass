@@ -2,14 +2,14 @@
 // Sidebar styles
 //
 #sidebar
-  background: linear-gradient($sidebar-background, smooth-color($sidebar-background, 5))
-  border-right: $theme-gap-small-size solid smooth-color($theme-color, 20)
-  border-left: $theme-gap-small-size solid smooth-color($theme-color, 20)
-  border-bottom: $theme-border-width solid smooth-color($theme-color, 20)
+  background: $nav-bg-color //linear-gradient($sidebar-background, smooth-color($sidebar-background, 5))
+  //border-right: $theme-gap-small-size solid smooth-color($theme-color, 20)
+  //border-left: $theme-gap-small-size solid smooth-color($theme-color, 20)
+  //border-bottom: $theme-border-width solid smooth-color($theme-color, 20)
   @extend %sidebar-effects
   @extend %sidebar
   .is-tree-active
-    background: smooth-color($sidebar-background, 7.5)
+    background: $nav-bg-color
   ul
     list-style-type: none
   ul.is-tree-active
@@ -39,11 +39,11 @@
   i
     color: $theme-white-color
 #sidebarCollapsible
-  background: linear-gradient(smooth-color($sidebar-background, 5), $sidebar-background)
+  background: $nav-bg-color //linear-gradient(smooth-color($sidebar-background, 5), $sidebar-background)
   +static-size-height(calc(#{$sidebar-entry-height} + (2 * #{$theme-gap-medium-size}) + #{$theme-gap-small-size}))
-  border-bottom: $theme-gap-small-size solid smooth-color($theme-color, 20)
-  border-right: $theme-gap-small-size solid smooth-color($theme-color, 20)
-  border-left: $theme-gap-small-size solid smooth-color($theme-color, 20)
+  //border-bottom: $theme-gap-small-size solid smooth-color($theme-color, 20)
+  //border-right: $theme-gap-small-size solid smooth-color($theme-color, 20)
+  //border-left: $theme-gap-small-size solid smooth-color($theme-color, 20)
   @extend %sidebar-effects
   @extend %sidebar
 #sidebar

@@ -2,7 +2,7 @@
 // Navbar styles
 //
 #navbar
-  background: $theme-color
+  background: $rt-color
   flex: 0 1 $navbar-height
   #navbarItemsContainer
     width: 100%
@@ -44,7 +44,7 @@
       &:hover
         #navbarExtendItemsContainer
           display: block
-          +navbar-content-effects-visible(100% $navbar-item-padding)
+          //+navbar-content-effects-visible(100% $navbar-item-padding)
     #navbarExtendItemsContainer
       padding: $navbar-item-padding 0 0 0
       right: -$theme-gap-small-size
@@ -53,7 +53,7 @@
       top: 100%
       +navbar-content-effects-hidden(100% $navbar-item-padding)
     #navbarExtendItemsWrapper
-      background: linear-gradient(45deg, $theme-color, smooth-color($theme-color, 20))
+      background: $rt-hover //linear-gradient(45deg, $theme-color, smooth-color($theme-color, 20))
       @extend %navbar-content-partial-border
       .dropdown-content
         @extend %navbar-content-full-border
@@ -71,26 +71,27 @@
         padding: $navbar-item-padding 0 0 0
       .dropdown-content
         padding: $theme-gap-small-size 0 $theme-gap-small-size 0
-        @extend %navbar-content-partial-border
+        //@extend %navbar-content-partial-border
         border-radius: 0
         .dropdown-item
           font-size: $theme-gap-large-size
           padding: $theme-gap-medium-size
           font-style: italic
           &:not(.is-selected)
-            color: smooth-color($content-writing-color, 50)
-            background: $content-background
+            color: white //smooth-color($content-writing-color, 50)
+            background: $rt-color //$content-background
             &:hover
-              background: smooth-color($content-background,10)
-              color: $content-writing-color
+              background: $rt-hover //smooth-color($content-background,10)
+              color: white //$content-writing-color
           &.is-selected
-            background: $content-background
-            color: $content-writing-color
+            //background: $content-background
+            color: $rt-color //$content-writing-color
             @extend %unselectable
             @extend %disable
           i
             width: $theme-icon-size
             text-align: center
+            color: white
       &.is-hovered,
       &:hover
         .dropdown-menu
